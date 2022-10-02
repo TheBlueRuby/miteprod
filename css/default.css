@@ -1,0 +1,95 @@
+:root {
+    /*--bg-color: linear-gradient(to bottom, #00b, #0060cc);*/
+    --bg-color: #00b;
+    --bg-color-posts: rgba(0, 0, 0, 0.25);
+    --bg-color-highlight: #05b;
+    --txt-color: #fff;
+    --link-color: #0f0;
+    --link-color-hover: #0c0;
+
+    --navbar-color: #0af;
+    --navbar-hover-color: #0ff;
+    --navbar-text-color: #000;
+    --navbar-hover-text-color: #555;
+
+    --max-width: 90vw;
+}
+
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    color: var(--txt-color);
+    background: var(--bg-color);
+    padding: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 0;
+    max-width: var(--max-width);
+}
+
+.title {
+    font-size: 2.5em;
+    margin: auto;
+    padding: 0;
+    padding-top: 1rem;
+    overflow: hidden;
+    max-width: var(--max-width);
+    min-height: 80px;
+}
+
+p {
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    max-width: var(--max-width);
+}
+
+.content {
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    max-width: var(--max-width);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-color-hover);
+}
+
+
+.navbar {
+    background-color: var(--navbar-color);
+    height: 60px;
+}
+
+.navbar-collapse {
+    height: 60px;
+}
+
+.navbar-nav {
+    height: 60px;
+}
+
+.nav-item {
+    margin: auto;
+}
+
+.nav-link {
+    color: var(--navbar-text-color);
+
+    height: 60px;
+    line-height: 44px;
+}
+
+.nav-link:hover {
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-hover-color);
+}
