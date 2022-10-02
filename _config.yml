@@ -2,14 +2,16 @@ exclude: ['./readme.md']
 exclude: ['*.scss']
 timezone: Australia/NSW
 defaults:
-    - scope:
-          path: ""
-        values:
-          layout: "default"
+      -
+    scope:
+      path: ""
+    values:
+      layout: "default"
 
-    - scope:
-        path: "resources/images"
-      values:
-        image: true
+      -
+    scope:
+      path: "resources/images"
+    values:
+      image: "true"
 
 permalink: /posts/:author/:categories/:year/:month/:day/:title/
