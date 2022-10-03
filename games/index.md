@@ -1,4 +1,5 @@
 ---
+title: Games
 layout: default
 permalink: /games/
 ---
