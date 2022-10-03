@@ -6,3 +6,4 @@ vendor
 *.lock
 .vscode
 Gemfile
+.markdownlint.json
