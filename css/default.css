@@ -1,6 +1,6 @@
 :root {
-    /*--bg-color: linear-gradient(to bottom, #00b, #0060cc);*/
-    --bg-color: #00b;
+    /*--bg-color: linear-gradient(to bottom, #007, #0060cc);*/
+    --bg-color: #007;
     --bg-color-posts: rgba(0, 0, 0, 0.25);
     --bg-color-highlight: #05b;
     --txt-color: #fff;
