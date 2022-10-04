@@ -23,7 +23,7 @@ permalink: /posts/
     <ul>
         {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a> published on {{ post.date | date_to_long_string }}
+            <a href="/miteprod/{{ post.url }}">{{ post.title }}</a> published on {{ post.date | date_to_long_string }}
         </li>
         {% endfor %}
     </ul>
