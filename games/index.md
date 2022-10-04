@@ -6,6 +6,8 @@ permalink: /games/
 
 # Games
 
+## Game Universes
+
 [Ultramite](./ultramite/)
 
 ## Categories
