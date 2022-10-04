@@ -6,7 +6,7 @@ permalink: /games/
 
 # Games
 
-[Ultramite] (./ultramite/)
+[Ultramite](./ultramite/)
 
 ## Categories
 
