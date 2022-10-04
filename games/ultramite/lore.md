@@ -1,6 +1,6 @@
 ---
 title: Ultramite Lore
-permalink: /games/ultramite/lore
+permalink: /games/ultramite/lore/
 layout: default
 ---
 
