@@ -6,7 +6,7 @@ permalink: /games/
 
 # Games
 
-## Game Universes
+## Game Series
 
 [Ultramite](./ultramite/)
 
