@@ -1,5 +1,5 @@
 ---
-title: Ultramite Lore
+title: Ultramite Story 1 Draft
 permalink: /games/ultramite/story/1/draft/
 layout: default
 ---
