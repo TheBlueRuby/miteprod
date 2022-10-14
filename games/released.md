@@ -14,3 +14,7 @@ permalink: /games/released/
 ## BixBox
 
 - [Backrooms First Contact (Scratch)](https://scratch.mit.edu/projects/695051017/)
+
+## Zaethar
+
+- [Apocalypse Doom Episode 1](../apocdoom/)
