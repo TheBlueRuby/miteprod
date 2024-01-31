@@ -1,61 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Mite Productions - {{ page.title }}</title>
-    <meta name="description" content="{{ page.description }}">
+    <meta name="description" content="{{ page.description }}" />
 
-    <link rel="icon" href="https://theblueruby.github.io/miteprod/resources/images/favicon.png" type="image/png">
+    <link rel="icon" href="/resources/images/favicon.png" type="image/png" />
 
     <meta content="Mite Productions - {{ page.title }}" property="og:title" />
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="website" />
     <meta content="Website of Mite Productions" property="og:description" />
     <meta content="{{site.url}}{{page.url}}" property="og:url" />
-    <meta content="https://theblueruby.github.io/miteprod/resources/banner.png" property="og:image" />
+    <meta content="/resources/images/banner.png" property="og:image" />
     <meta content="#00BBFF" name="theme-color" />
-</head>
+  </head>
 
-<body>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+  <body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="https://theblueruby.github.io/miteprod/css/default.css">
+    <link rel="stylesheet" href="/css/default.css" />
 
-    <br>
+    <br />
     <h1 class="title">Mite Productions - {{page.title}}</h1>
-    <br>
+    <br />
 
     <nav class="navbar navbar-expand">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://theblueruby.github.io/miteprod/">
-                <img src="https://theblueruby.github.io/miteprod/resources/images/favicon.png" width="45" height="45" alt="Mite Productions Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav me-auto me-2">
-                    <li class="nav-item"><a class="nav-link" href="https://theblueruby.github.io/miteprod/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://theblueruby.github.io/miteprod/games/">Games</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://theblueruby.github.io/miteprod/posts/">Posts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://theblueruby.github.io/miteprod/about/">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link"
-                            href="https://github.com/TheBlueRuby/miteprod/">Source</a></li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="/resources/images/favicon.png" width="45" height="45" alt="Mite Productions Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav me-auto me-2">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/games/">Games</a></li>
+            <li class="nav-item"><a class="nav-link" href="/posts/">Posts</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about/">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/TheBlueRuby/miteprod/">Source</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <br>
+    <br />
 
-    <div class="content">
-        {{ content }}
-    </div>
-
-</body>
-
+    <div class="content">{{ content }}</div>
+  </body>
 </html>

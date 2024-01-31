@@ -1,8 +1,9 @@
-exclude: ['./readme.md']
-exclude: ['*.scss']
+exclude: ['./readme.md', '*.scss']
 timezone: Australia/NSW  
 
 collections:
   posts:
     output: true
     permalink: /:categories/:year/:month/:day/:title/
+
+plugins: ['jekyll-feed', 'jekyll-sitemap']
